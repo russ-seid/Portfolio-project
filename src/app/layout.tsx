@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Boldonse } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
-import ConstructionBanner from "@/components/layout/ConstructionBanner";
 import VelocityCursor from "@/components/ui/VelocityCursor";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
@@ -24,11 +24,11 @@ export default function RootLayout({
       <body>
         <VelocityCursor />
         <div className="sticky top-0 z-50">
-          <ConstructionBanner />
           <Nav />
         </div>
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
