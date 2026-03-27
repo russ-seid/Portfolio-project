@@ -1,9 +1,13 @@
+import HeroSection from '@/components/sections/HeroSection';
+import AboutSection from '@/components/sections/AboutSection';
+import WorkSection from '@/components/sections/WorkSection';
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-2xl font-semibold tracking-tight text-gray-900">
-        Russ Seidametov — Portfolio
-      </h1>
-    </div>
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <WorkSection />
+    </main>
   );
 }
