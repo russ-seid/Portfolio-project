@@ -1,1 +1,5 @@
-// Shared TypeScript types — populated in Phase 2+
+export interface CaseStudy {
+  title: string;
+  description: string;
+  href: string;
+}
