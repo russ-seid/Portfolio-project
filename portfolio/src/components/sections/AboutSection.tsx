@@ -6,7 +6,7 @@ export default function AboutSection({ className }: AboutSectionProps) {
   return (
     <section
       aria-label="About"
-      className={`border-t border-neutral-200 pt-20 pb-32${className ? ` ${className}` : ''}`}
+      className={`pt-20 pb-32${className ? ` ${className}` : ''}`}
     >
       <div className="max-w-[1080px] mx-auto px-4 sm:px-16">
         <p className="text-[12px] font-medium uppercase tracking-widest text-neutral-400 mb-8">
