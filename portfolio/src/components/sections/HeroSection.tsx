@@ -19,10 +19,10 @@ export default function HeroSection({ className }: HeroSectionProps) {
           Russ Seidametov.
         </h1>
         <h2 className="text-[40px] sm:text-[60px] font-normal leading-[1.05] tracking-[-0.03em] text-neutral-400 mt-0">
-          Designing data-heavy products<br className="hidden sm:block" /> for athletes and coaches.
+          I turn complexity into clarity.
         </h2>
         <p className="mt-8 text-[15px] font-normal leading-[1.75] text-neutral-400 max-w-[440px]">
-          At Fiyrpod, I build performance tools that turn<br className="hidden sm:block" /> complex data into fast decisions.
+          Currently at Fiyrpod, designing athlete tracking tools that make elite-level performance analysis accessible to every coach.
         </p>
       </div>
     </section>
