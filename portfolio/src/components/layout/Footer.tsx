@@ -7,7 +7,7 @@ export default function Footer({ className }: FooterProps) {
     <footer
       className={`border-t border-neutral-200${className ? ` ${className}` : ''}`}
     >
-      <div className="max-w-[1080px] mx-auto px-4 sm:px-16 py-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div className="max-w-[1080px] mx-auto px-4 sm:px-16 py-12 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <span className="text-[16px] text-[#171717]">Get in touch</span>
         <div className="flex flex-col sm:flex-row gap-4">
           <a

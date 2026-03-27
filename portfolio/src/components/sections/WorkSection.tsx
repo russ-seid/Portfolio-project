@@ -32,13 +32,13 @@ export default function WorkSection({ className }: WorkSectionProps) {
   return (
     <section
       aria-label="Work"
-      className={`pt-12 pb-16${className ? ` ${className}` : ''}`}
+      className={`border-t border-neutral-200 pt-20 pb-28${className ? ` ${className}` : ''}`}
     >
       <div className="max-w-[1080px] mx-auto px-4 sm:px-16">
-        <h2 className="text-[20px] font-semibold leading-[1.3] text-[#171717]">
+        <p className="text-[12px] font-medium uppercase tracking-widest text-neutral-400 mb-8">
           Work
-        </h2>
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {caseStudies.map((study) => (
             <CaseStudyCard
               key={study.title}
