@@ -1,3 +1,5 @@
+import PlasmaOrb from '@/components/ui/PlasmaOrb';
+
 interface HeroSectionProps {
   className?: string;
 }
@@ -6,14 +8,19 @@ export default function HeroSection({ className }: HeroSectionProps) {
   return (
     <section
       aria-label="Hero"
-      className={`min-h-[92vh] flex flex-col justify-end pb-24${className ? ` ${className}` : ''}`}
+      className={`relative flex flex-col justify-end pt-20 pb-20 min-h-[88vh]${className ? ` ${className}` : ''}`}
     >
-      <div className="max-w-[1080px] mx-auto px-4 sm:px-16 w-full">
-        <h1 className="text-[36px] sm:text-[52px] font-semibold leading-[1.08] tracking-[-0.02em] text-[#171717] max-w-[800px]">
-          Russ Seidametov. I turn complexity into clarity.
+      <PlasmaOrb />
+      <div className="relative max-w-[1080px] mx-auto px-4 sm:px-16 w-full">
+        <h1 className="text-[36px] sm:text-[54px] font-semibold leading-[1.08] tracking-[-0.025em] text-[#171717] max-w-[680px]">
+          Russ Seidametov
+          <br />
+          <span className="text-neutral-500 font-normal">
+            Designing data-heavy products for athletes and coaches.
+          </span>
         </h1>
-        <p className="mt-6 text-[15px] sm:text-[17px] font-normal leading-[1.6] text-neutral-400 max-w-[520px]">
-          Currently at Fiyrpod, designing athlete tracking tools that make elite-level performance analysis accessible to every coach.
+        <p className="mt-8 text-[15px] sm:text-[16px] font-normal leading-[1.7] text-neutral-400 max-w-[480px]">
+          At Fiyrpod, I build performance tools that turn complex data into fast decisions.
         </p>
       </div>
     </section>
