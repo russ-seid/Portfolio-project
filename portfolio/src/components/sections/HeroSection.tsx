@@ -6,7 +6,7 @@ export default function HeroSection({ className }: HeroSectionProps) {
   return (
     <section
       aria-label="Hero"
-      className={`pt-32 pb-24${className ? ` ${className}` : ''}`}
+      className={`min-h-[90vh] flex flex-col justify-center pt-16 pb-24${className ? ` ${className}` : ''}`}
     >
       <div className="max-w-[1080px] mx-auto px-4 sm:px-16">
         <h1 className="text-[28px] sm:text-[40px] font-semibold leading-[1.1] tracking-tight text-[#171717] max-w-[720px]">
