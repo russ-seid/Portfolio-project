@@ -43,14 +43,11 @@ Plans:
   4. Footer shows contact and social links that open correctly
   5. Site-wide navigation is visible and functional on landing page
   6. Layout is usable and correct on mobile and desktop viewport sizes
-**Plans**: TBD
-
-Note: Run `/gsd:ui-phase` BEFORE planning or executing implementation plans for this phase. The resulting UI-SPEC.md is the design contract that implementation must satisfy.
+**Plans**: 1 plan
 
 Plans:
-- [ ] 02-01: Run /gsd:ui-phase to produce UI-SPEC.md for the landing page
-- [ ] 02-02: Implement landing page — nav, hero, about, case study cards, footer
-**UI hint**: yes
+- [x] 02-UI-SPEC.md — UI design contract for the landing page (produced by /gsd:ui-phase)
+- [ ] 02-01-PLAN.md — Implement complete landing page: design tokens, Inter font, Nav, Hero, About, Work (4 case study cards), Footer
 
 ### Phase 3: Case Study Pages
 **Goal**: Users can open any of the four case study pages and explore Russ's work in full detail
@@ -93,7 +90,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/1 | Complete   | 2026-03-27 |
-| 2. Landing Page | 0/2 | Not started | - |
+| 2. Landing Page | 0/1 | Planning complete | - |
 | 3. Case Study Pages | 0/2 | Not started | - |
 | 4. Deploy & Polish | 0/1 | Not started | - |
 
