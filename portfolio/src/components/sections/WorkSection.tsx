@@ -35,8 +35,8 @@ export default function WorkSection({ className }: WorkSectionProps) {
       className={`pt-20 pb-28${className ? ` ${className}` : ''}`}
     >
       <div className="max-w-[1080px] mx-auto px-4 sm:px-16">
-        <p className="text-[12px] font-medium uppercase tracking-widest text-neutral-400 mb-8">
-          Work
+        <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400 mb-10">
+          Selected Work
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {caseStudies.map((study) => (
