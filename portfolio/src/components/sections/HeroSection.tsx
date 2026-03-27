@@ -12,15 +12,17 @@ export default function HeroSection({ className }: HeroSectionProps) {
     >
       <PlasmaOrb />
       <div className="relative max-w-[1080px] mx-auto px-4 sm:px-16 w-full">
-        <h1 className="text-[36px] sm:text-[54px] font-semibold leading-[1.08] tracking-[-0.025em] text-[#171717] max-w-[680px]">
-          Russ Seidametov
-          <br />
-          <span className="text-neutral-500 font-normal">
-            Designing data-heavy products for athletes and coaches.
-          </span>
+        <p className="text-[13px] font-medium tracking-[0.14em] uppercase text-neutral-400 mb-6">
+          Product Designer
+        </p>
+        <h1 className="text-[40px] sm:text-[60px] font-semibold leading-[1.05] tracking-[-0.03em] text-[#171717]">
+          Russ Seidametov.
         </h1>
-        <p className="mt-8 text-[15px] sm:text-[16px] font-normal leading-[1.7] text-neutral-400 max-w-[480px]">
-          At Fiyrpod, I build performance tools that turn complex data into fast decisions.
+        <h2 className="text-[40px] sm:text-[60px] font-normal leading-[1.05] tracking-[-0.03em] text-neutral-400 mt-0">
+          Designing data-heavy products<br className="hidden sm:block" /> for athletes and coaches.
+        </h2>
+        <p className="mt-8 text-[15px] font-normal leading-[1.75] text-neutral-400 max-w-[440px]">
+          At Fiyrpod, I build performance tools that turn<br className="hidden sm:block" /> complex data into fast decisions.
         </p>
       </div>
     </section>
