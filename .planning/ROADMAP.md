@@ -13,7 +13,7 @@ Four phases take this project from a blank repo to a live, publicly accessible p
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Next.js project scaffolded, Tailwind + TypeScript configured, deployable to Vercel (completed 2026-03-27)
-- [ ] **Phase 2: Landing Page** - UI design contract produced then full landing page implemented (hero, about, case study cards, nav, footer)
+- [x] **Phase 2: Landing Page** - UI design contract produced then full landing page implemented (hero, about, case study cards, nav, footer) (completed 2026-03-27)
 - [ ] **Phase 3: Case Study Pages** - UI design contract produced then all four case study pages implemented
 - [ ] **Phase 4: Deploy & Polish** - Final Vercel deployment verified, responsive QA passed, cross-browser check complete
 
@@ -47,7 +47,7 @@ Plans:
 
 Plans:
 - [x] 02-UI-SPEC.md — UI design contract for the landing page (produced by /gsd:ui-phase)
-- [ ] 02-01-PLAN.md — Implement complete landing page: design tokens, Inter font, Nav, Hero, About, Work (4 case study cards), Footer
+- [x] 02-01-PLAN.md — Implement complete landing page: design tokens, Inter font, Nav, Hero, About, Work (4 case study cards), Footer
 
 ### Phase 3: Case Study Pages
 **Goal**: Users can open any of the four case study pages and explore Russ's work in full detail
@@ -90,7 +90,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/1 | Complete   | 2026-03-27 |
-| 2. Landing Page | 0/1 | Planning complete | - |
+| 2. Landing Page | 1/1 | Complete   | 2026-03-27 |
 | 3. Case Study Pages | 0/2 | Not started | - |
 | 4. Deploy & Polish | 0/1 | Not started | - |
 

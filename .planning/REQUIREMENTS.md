@@ -12,14 +12,14 @@
 
 ### Navigation
 
-- [ ] **NAV-01**: Site-wide navigation is visible on landing and all case study pages
+- [x] **NAV-01**: Site-wide navigation is visible on landing and all case study pages
 
 ### Landing Page
 
-- [ ] **LAND-01**: Hero section displays headline and current role tagline
-- [ ] **LAND-02**: About section displays background, current company, and interests
-- [ ] **LAND-03**: 4 case study cards display title, description, and link to full case study page
-- [ ] **LAND-04**: Footer displays contact and social links
+- [x] **LAND-01**: Hero section displays headline and current role tagline
+- [x] **LAND-02**: About section displays background, current company, and interests
+- [x] **LAND-03**: 4 case study cards display title, description, and link to full case study page
+- [x] **LAND-04**: Footer displays contact and social links
 
 ### Case Studies
 
@@ -33,10 +33,10 @@
 
 ### Design
 
-- [ ] **DESIGN-01**: Clean, minimal visual design — no animations or interactions in v1
-- [ ] **DESIGN-02**: Fully responsive layout (mobile and desktop)
-- [ ] **DESIGN-03**: Components structured to support v2 animation and interaction layer
-- [ ] **DESIGN-04**: UI design contract (UI-SPEC.md) created via /gsd:ui-phase before each frontend phase
+- [x] **DESIGN-01**: Clean, minimal visual design — no animations or interactions in v1
+- [x] **DESIGN-02**: Fully responsive layout (mobile and desktop)
+- [x] **DESIGN-03**: Components structured to support v2 animation and interaction layer
+- [x] **DESIGN-04**: UI design contract (UI-SPEC.md) created via /gsd:ui-phase before each frontend phase
 
 ## v2 Requirements
 
@@ -69,11 +69,11 @@
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Complete |
 | FOUND-02 | Phase 1 | Complete |
-| NAV-01 | Phase 2 | Pending |
-| LAND-01 | Phase 2 | Pending |
-| LAND-02 | Phase 2 | Pending |
-| LAND-03 | Phase 2 | Pending |
-| LAND-04 | Phase 2 | Pending |
+| NAV-01 | Phase 2 | Complete |
+| LAND-01 | Phase 2 | Complete |
+| LAND-02 | Phase 2 | Complete |
+| LAND-03 | Phase 2 | Complete |
+| LAND-04 | Phase 2 | Complete |
 | CS-01 | Phase 3 | Pending |
 | CS-02 | Phase 3 | Pending |
 | CS-03 | Phase 3 | Pending |
@@ -81,10 +81,10 @@
 | CS-05 | Phase 3 | Pending |
 | CS-06 | Phase 3 | Pending |
 | CS-07 | Phase 3 | Pending |
-| DESIGN-01 | Phase 2 | Pending |
-| DESIGN-02 | Phase 2 | Pending |
-| DESIGN-03 | Phase 2 | Pending |
-| DESIGN-04 | Phase 2 | Pending |
+| DESIGN-01 | Phase 2 | Complete |
+| DESIGN-02 | Phase 2 | Complete |
+| DESIGN-03 | Phase 2 | Complete |
+| DESIGN-04 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 18 total
